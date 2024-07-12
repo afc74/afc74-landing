@@ -1,14 +1,18 @@
 <template>
-  <GreetingHeader msg="Welcome to Your Vue.js App"/>
+  <GreetingHeader msg="Hello there!"/>
+<RandomGif />
+
 </template>
 
 <script>
 import GreetingHeader from './components/GreetingHeader.vue'
+import RandomGif from "./components/RandomGif.vue";
 
 export default {
   name: 'App',
   components: {
-    GreetingHeader
+    GreetingHeader,
+    RandomGif
   }
 }
 </script>
@@ -16,3 +20,5 @@ export default {
 <style>
 
 </style>
+
+<!---->
